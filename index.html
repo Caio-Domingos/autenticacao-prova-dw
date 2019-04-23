@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pagina Inicial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./public/stylesheets/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./public/stylesheets/main.css"
+    />
+  </head>
+  <body>
+    <main class="container modal-center">
+      <div class="alert alert-success" role="alert">
+        Logado com sucesso!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        Dados incorretos, tente novamente
+      </div>
+      <div class="modal-inner card">
+        <div class="card-body">
+          <h3>Pitágoras</h3>
+          <h5>Autenticação</h5>
+          <form>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="pass">Senha</label>
+              <input type="password" class="form-control" id="pass" placeholder="Senha">
+            </div>
+            <a href="">Esqueci minha senha</a>
+            <br>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./public/js/jquery.js"></script>
+  <script src="./public/js/popper.js"></script>
+  <script src="./public/js/bootstrap.js"></script>
+</html>
